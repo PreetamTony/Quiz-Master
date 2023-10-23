@@ -64,7 +64,7 @@ else:
         quiz_questions.append(temp_dict)
 
     ind = st.session_state.current_question
-    st.write(quiz_questions[st.session_state.current_question]["answer"])
+    # st.write(quiz_questions[st.session_state.current_question]["answer"])
     current_question = quiz_questions[ind]
     st.subheader(quiz_questions[ind]["text"])
     player_choice = st.radio("Select your answer:",
@@ -79,4 +79,4 @@ else:
             st.success("Quiz Finished!")
             st.write(f"Your Score: {st.session_state.player_score}")
             initialize_session_state()
-            # st.stop()
+            st.rerun() 

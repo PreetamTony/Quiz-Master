@@ -66,8 +66,8 @@ else:
     ind = st.session_state.current_question
     st.write(quiz_questions[st.session_state.current_question]["answer"])
     current_question = quiz_questions[ind]
-    st.write(quiz_questions[ind]["text"])
-    player_choice = st.selectbox("Select your answer:",
+    st.subheader(quiz_questions[ind]["text"])
+    player_choice = st.radio("Select your answer:",
                                  options=current_question["options"],
                                  key=f"question_{ind}")
     if st.button("Submit", key=f"submit_{ind}"):
@@ -78,5 +78,5 @@ else:
         if st.session_state.current_question >= len(quiz_questions):
             st.success("Quiz Finished!")
             st.write(f"Your Score: {st.session_state.player_score}")
-            # initialize_session_state()
-            st.stop()
+            initialize_session_state()
+            # st.stop()

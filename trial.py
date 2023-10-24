@@ -81,5 +81,7 @@ else:
         if st.session_state.current_question < len(quiz_questions):
             st.rerun()  
         if st.session_state.current_question >= len(quiz_questions):
+            st.session_state.clear
+            # st.empty()
             st.success("Quiz Finished!")
             st.write(f"Your Score: {st.session_state.player_score}")

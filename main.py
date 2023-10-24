@@ -32,6 +32,11 @@ def update_score(player_choice, correct_answer):
     if str(player_choice) == str(correct_answer):
         st.session_state.player_score += 1
 
+if "submit_key" in st.session_state and st.session_state.submit_key == True:
+    st.session_state.running = True
+else:
+    st.session_state.running = False
+
 
 st.markdown("<style>description {color: Green;}</style>",unsafe_allow_html = True)
 st.title(":orange[Welcome to the] :violet[QuizMaster!]")
@@ -70,7 +75,7 @@ else:
     player_choice = st.radio("Select your answer:",
                                  options=current_question["options"],
                                  key=f"question_{ind}")
-    if st.button("Submit", key=f"submit_{ind}"):
+    if st.button("Submit", key="submit_key", disabled=(st.session_state.running)):
         calculate_score(player_choice)
         st.write(st.session_state.player_score)
         if st.session_state.current_question < len(quiz_questions):
@@ -78,5 +83,3 @@ else:
         if st.session_state.current_question >= len(quiz_questions):
             st.success("Quiz Finished!")
             st.write(f"Your Score: {st.session_state.player_score}")
-            initialize_session_state()
-            st.rerun() 

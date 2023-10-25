@@ -2,7 +2,7 @@ Welcome to Quiz Master, a fun and interactive quiz game built in Python using th
 
 This README will provide you with all the information you need to understand the game's objective, rules, technology stack, and setup instructions.
 
-Game Objective and Rules
+<b> Game Objective and Rules </b>
 
 The objective of this game is to answer the most questions correctly. Each round will have ten questions that will come from categories and difficulty levels of your choosing. Take your time as you answer the questions. There is no time limit. Above all else, have fun! You have full autonomy over the questions you receive. 
 		
@@ -22,13 +22,13 @@ Most importantly, challenge yourself and your friends and have fun! Correct answ
 Will you be the next Quiz Master? Play this game and find out!
 
 
-Technology Stack
+<b> Technology Stack </b>
 
 
-Setup Instructions
+<b> Setup Instructions </b>
 
 
-Credits & Acknowledgements
+<b> Credits & Acknowledgements </b>
 
 Streamlit v1.27.0
 https://streamlit.io | Copyright 2023 Snowflake Inc. All rights reserved.

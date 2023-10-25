@@ -1,5 +1,6 @@
 <b> Welcome to Quiz Master, a fun and interactive quiz game built in Python using the Pygame library Streamlit. </b> 
 <b> You can try out the game here =======> https://quiz-master.streamlit.app/ </b>
+
 <i> This README will provide you with all the information you need to understand the game's objective, rules, technology stack, and setup instructions. </i> 
 
 <b> Game Objective and Rules </b>

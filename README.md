@@ -6,7 +6,7 @@ This README will provide you with all the information you need to understand the
 
 The objective of this game is to answer the most questions correctly. Each round will have ten questions that will come from categories and difficulty levels of your choosing. Take your time as you answer the questions. There is no time limit. Above all else, have fun! You have full autonomy over the questions you receive. 
 		
-Step 1: Select a Category 
+<i> Step 1: Select a Category </i>
 
 You will start the game by selecting the category you want your questions to be randomly generated from. These categories could range from Entertainment to Science. Please select a category that would provide the most enjoyable experience for this round. After the game starts, you can change your category if you desire for each question. 
 When a category has been selected, the first question and corresponding answer choices will appear. You will have the opportunity to change your category after previewing a question. 

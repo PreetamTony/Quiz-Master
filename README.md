@@ -16,7 +16,7 @@ When a category has been selected, the first question and corresponding answer c
 
 For the best experience, you should select the difficulty level after selecting the category. The first question will default to the easy difficulty level. The levels of difficulty range from Easy to Medium to Hard. Please be sure to pick a level of difficulty that would provide the most enjoyable experience for you. If you change from the default difficulty level, the question will change to reflect the new chosen level. 
 
-/b
+----------------------------------------------------------------------------
 
 Please review the question before you submit your answer. When an answer has been submitted, it will count towards your final score. You will not be able to go back and change the difficulty level or category for any previous question. 
 

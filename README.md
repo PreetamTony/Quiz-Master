@@ -19,3 +19,29 @@ Please review the question before you submit your answer. When an answer has bee
 
 Most importantly, challenge yourself and your friends and have fun! Correct answers will be displayed for every wrong answer. At the end of the game, your score will be revealed. Will you be the next Quiz Master? Play this game and find out!
 
+Technology Stack
+
+
+Setup Instructions
+
+
+Credits & Acknowledgements
+
+Streamlit v1.27.0
+https://streamlit.io | Copyright 2023 Snowflake Inc. All rights reserved.
+
+Numpy v1.19.1
+https://numpy.org/ | Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). DOI: 10.1038/s41586-020-2649-2. (Publisher link).
+
+Panda v1.2.0
+https://pandas.pydata.org/docs/index.html | 2023 pandas via NumFOCUS, Inc. Hosted by OVHcloud.
+
+Plotly v4.9.0
+https://plotly.com/graphing-libraries/ | Copyright © 2023 Plotly. All rights reserved.
+
+Requests v2.24.0
+https://requests.readthedocs.io/en/latest/ | ©MMXVIX. A Kenneth Reitz Project.
+
+Altair v5
+https://altair-viz.github.io/index.html | © Copyright 2016-2023, Vega-Altair Developers.
+

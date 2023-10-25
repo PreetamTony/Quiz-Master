@@ -1,4 +1,4 @@
-<b> Welcome to Quiz Master, a fun and interactive quiz game built in Python using the Pygame library Streamlit. <b/> 
+<b> Welcome to Quiz Master, a fun and interactive quiz game built in Python using the Pygame library Streamlit. </b> 
 
 <i> This README will provide you with all the information you need to understand the game's objective, rules, technology stack, and setup instructions. </i> 
 
@@ -12,7 +12,7 @@ You will start the game by selecting the category you want your questions to be 
 
 When a category has been selected, the first question and corresponding answer choices will appear. You will have the opportunity to change your category after previewing a question. 
 
-<i> Step 2: Select the Level of Difficulty <i/> 
+<i> Step 2: Select the Level of Difficulty </i> 
 
 For the best experience, you should select the difficulty level after selecting the category. The first question will default to the easy difficulty level. The levels of difficulty range from Easy to Medium to Hard. Please be sure to pick a level of difficulty that would provide the most enjoyable experience for you. If you change from the default difficulty level, the question will change to reflect the new chosen level. 
 

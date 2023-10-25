@@ -17,7 +17,10 @@ For the best experience, you should select the difficulty level after selecting 
 
 Please review the question before you submit your answer. When an answer has been submitted, it will count towards your final score. You will not be able to go back and change the difficulty level or category for any previous question. 
 
-Most importantly, challenge yourself and your friends and have fun! Correct answers will be displayed for every wrong answer. At the end of the game, your score will be revealed. Will you be the next Quiz Master? Play this game and find out!
+Most importantly, challenge yourself and your friends and have fun! Correct answers will be displayed for every wrong answer. At the end of the game, your score will be revealed. To start a new round, please refresh the page. 
+
+Will you be the next Quiz Master? Play this game and find out!
+
 
 Technology Stack
 

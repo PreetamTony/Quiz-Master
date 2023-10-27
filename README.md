@@ -1,10 +1,10 @@
-<b> # Welcome to Quiz Master, a fun and interactive quiz game built in Python using the Pygame library Streamlit. </b> 
+# Welcome to Quiz Master, a fun and interactive quiz game built in Python using the Pygame library Streamlit. 
 
 You can try out the game here =======> https://quiz-master.streamlit.app/ 
 
 <i> This README will provide you with all the information you need to understand the game's objective, rules, technology stack, and setup instructions. </i> 
 
-<b> ## Game Objective and Rules </b>
+## Game Objective and Rules 
 
 The objective of this game is to answer the most questions correctly. Each round will have ten questions that will come from categories and difficulty levels of your choosing. Take your time as you answer the questions. There is no time limit. Above all else, have fun! You have full autonomy over the questions you receive. 
 		
@@ -26,7 +26,7 @@ Most importantly, challenge yourself and your friends and have fun! Correct answ
 
 
 
-<b> ## Technology Stack </b>
+## Technology Stack 
 
 The Quiz-Master game is developed in Python language and uses [Pygame](https://www.pygame.org)
  as its primary library. Pygame is one of the most popular open-source Python libraries that is primarily used for creating 2-D games and other related applications. It provides a convenient and easy-to-use set of functions and tools for developing games, and it is built on top of the SimpleDirectMedia Layer. Several Pygame packages were used in developing the application, which includes random, time and altair. Random package is used to generate random numbers, which is useful for selecting questions at random. The time package is used to control the flow of the game, like delaying the next question until the specified time or till the user answers the question. Altair package is used to create interactive charts, which are used to display player scores and other information about the game.
@@ -63,7 +63,7 @@ Getting Around the Quiz: After submitting an answer, the code shows the next que
 
 
 
-<b> ## Setup and Deployment Instructions </b>
+## Setup and Deployment Instructions 
 
 👨🏻‍💻 How to run the app? 
 
@@ -103,7 +103,7 @@ https://altair-viz.github.io/index.html | © Copyright 2016-2023, Vega-Altair De
 ----------------------------------------------------------------------------------------------------
 
 
-<b> ## Reflection from the Project </b>
+## Reflection from the Project 
 
 Throughout the course of our project, we made several decisions, some of which turned out to be effective, while others didn't quite hit the mark. Our journey involved various stages, from initial organization and team management to design and project development. Reflecting on this process, we encountered both challenges and successes that taught us valuable lessons.
 

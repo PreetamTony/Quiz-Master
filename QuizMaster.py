@@ -10,6 +10,26 @@ from datetime import datetime, timedelta
 import altair as alt
 import random
 
+# def set_bg_hack_url():
+#     '''
+#     A function to unpack an image from url and set as bg.
+#     Returns
+#     -------
+#     The background.
+#     '''
+        
+#     st.markdown(
+#          f"""
+#          <style>
+#          .stApp {{
+#              background: url("https://www.clemson.edu/brand/resources/logos/paw/orange.png");
+#              background-size: cover
+#          }}
+#          </style>
+#          """,
+#          unsafe_allow_html=True
+#      )
+
 def get_category():
     category_dict = dict()
     category_json_list = rq.get("https://opentdb.com/api_category.php").json()
@@ -50,7 +70,7 @@ if "running" not in st.session_state:
 def nextpage(): st.session_state.page += 1
 def restart(): st.session_state.page = 0
 
-
+set_bg_hack_url()
 st.markdown("<style>description {color: Green;}</style>",unsafe_allow_html = True)
 st.title(":orange[Welcome to the] :violet[QuizMaster!]")
 st.subheader("_Engage, Entertain, and Educate with QuizMaster - Where Knowledge Meets Fun!_", divider= 'rainbow')

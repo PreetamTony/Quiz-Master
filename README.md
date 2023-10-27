@@ -42,9 +42,13 @@ calculate_score(): This function includes most of the functionality of the appli
 
 👨🏻‍💻 How to run the app? 
 Step 1: Clone the repo 
+
 Step 2: create virtual environment: 'python -m venv ' 
+
 Step 3: Activate the environment: '\Scripts\activate' 
+
 Step 4: Install the dependencies: pip install -r requirements.txt 
+
 step 5: run it on local host: 'streamlit run QuizMaster.py' 
 
 The Dashboard can be accessed via following link: https://quiz-master.streamlit.app/

@@ -28,10 +28,7 @@ Most importantly, challenge yourself and your friends and have fun! Correct answ
 
 ## Technology Stack 
 
-The Quiz-Master game is developed in Python language and uses [Pygame](https://www.pygame.org)
- as its primary library. Pygame is one of the most popular open-source Python libraries that is primarily used for creating 2-D games and other related applications. It provides a convenient and easy-to-use set of functions and tools for developing games, and it is built on top of the SimpleDirectMedia Layer. Several Pygame packages were used in developing the application, which includes random, time and altair. Random package is used to generate random numbers, which is useful for selecting questions at random. The time package is used to control the flow of the game, like delaying the next question until the specified time or till the user answers the question. Altair package is used to create interactive charts, which are used to display player scores and other information about the game.
-
-There are a few other packages used, such as [Streamlit](https://streamlit.io/), is used for creating the user interface of the game. It allows for easy web app development with Python. Requests package used for making HTTP requests. JSON library is used for encoding and decoding JSON data. Other general libraries like datetime, pandas, numpy, and plotly are used. 
+The Quiz-Master game is developed in Python language and uses [Streamlit](https://streamlit.io/), which is an open-source Python library that is designed to make it easy to create web applications. It allows you to turn data scripts into shareable web apps quickly and with minimal effort. Streamlit is gaining popularity because it offers a simple and intuitive way to build interactive data-driven applications. It is mainly used for creating the user interface of the game. It allows for easy web app development with Python. Packages like Requests, used for making HTTP requests, JSON library is used for encoding and decoding JSON data are included in the project. Other general libraries like datetime, pandas, numpy, and plotly are used. 
 
 The modules and functions used in the game development are discussed below:
 

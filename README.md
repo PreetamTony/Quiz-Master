@@ -79,7 +79,7 @@ step 5: Run it on local host: 'streamlit run QuizMaster.py'
 
 The Dashboard can be accessed via following link: https://quiz-master.streamlit.app/
 
-<b> Credits & Acknowledgements </b>
+## Credits & Acknowledgements
 
 Streamlit v1.27.0
 https://streamlit.io | Copyright 2023 Snowflake Inc. All rights reserved.

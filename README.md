@@ -30,17 +30,24 @@ Most importantly, challenge yourself and your friends and have fun! Correct answ
 <b> Technology Stack </b>
 
 The Quiz-Master game is developed in Python language and uses “Pygame” as its primary library. Pygame is one of the most popular open-source Python libraries that is primarily used for creating 2-D games and other related applications. It provides a convenient and easy-to-use set of functions and tools for developing games, and it is built on top of the SimpleDirectMedia Layer. Several Pygame packages were used in developing the application, which includes random, time and altair. Random package is used to generate random numbers, which is useful for selecting questions at random. The time package is used to control the flow of the game, like delaying the next question until the specified time or till the user answers the question. Altair package is used to create interactive charts, which are used to display player scores and other information about the game.
+
 There are a few other packages used, such as Streamlit, used for creating and sharing data apps. Requests package used for making HTTP requests. JSON library is used for encoding and decoding JSON data. Other general libraries like datetime, pandas, numpy, and plotly are used. 
+
 The modules and functions used in the game development are discussed below:
+
 get_category(): This function fetches all the available quiz categories from the Open Trivia Database API and returns them as a dictionary.
+
 get_question(): Based on the selected category and difficulty, it returns a list of questions.
+
 initialize_session_state(): It initializes the game state, which includes the current question index and player score, using Streamlit’s session state.
+
 calculate_score(): This function includes most of the functionality of the application. It calculates the player’s score by comparing their choices with the correct answer and then updates the session. This part has Streamlit’s UI components for creating the game, such as st.title, st.subheader, st.sidebar, st.radio, and st.button. Inside the function, it compares player_choice with correct_answer and decides whether to increase the player's score or not. The updated player score is stored in Streamlit’s session state so that it persists across different questions in the game.
 
 
 <b> Setup Instructions </b>
 
 👨🏻‍💻 How to run the app? 
+
 Step 1: Clone the repo 
 
 Step 2: create virtual environment: 'python -m venv ' 

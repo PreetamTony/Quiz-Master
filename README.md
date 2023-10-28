@@ -74,7 +74,7 @@ Step 4: Install the dependencies: pip install -r requirements.txt
 
 step 5: Run it on local host: 'streamlit run QuizMaster.py' 
 
-The Dashboard can be accessed via following link: https://quiz-master.streamlit.app/
+The Game can be accessed via following link: https://quiz-master.streamlit.app/
 
 ## Credits & Acknowledgements
 

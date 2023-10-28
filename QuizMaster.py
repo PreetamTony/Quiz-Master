@@ -70,7 +70,7 @@ if "running" not in st.session_state:
 def nextpage(): st.session_state.page += 1
 def restart(): st.session_state.page = 0
 
-set_bg_hack_url()
+# set_bg_hack_url()
 st.markdown("<style>description {color: Green;}</style>",unsafe_allow_html = True)
 st.title(":orange[Welcome to the] :violet[QuizMaster!]")
 st.subheader("_Engage, Entertain, and Educate with QuizMaster - Where Knowledge Meets Fun!_", divider= 'rainbow')
@@ -126,3 +126,13 @@ else:
                 st.success("Quiz Finished!")
                 st.subheader(f"_Your_ _Score_: :blue[{st.session_state.player_score}] :sunglasses:")
                 st.snow()
+
+st.markdown("---")
+st.markdown("### Reload the page or press F5 to restart the game!")
+st.sidebar.markdown("---")
+st.sidebar.markdown("### About Developer", unsafe_allow_html=True)
+st.sidebar.markdown("Visit <a href='https://www.linkedin.com/in/ruchit-tripathi/'>Ruchit's LinkedIn</a> page for more information & updates.", unsafe_allow_html=True)
+st.sidebar.markdown("### About Contributors", unsafe_allow_html=True)
+st.sidebar.markdown("<a href='https://www.linkedin.com/in/stephanie-damas7213/'>Stephanie's LinkedIn</a>", unsafe_allow_html=True)
+st.sidebar.markdown("<a href='https://www.linkedin.com/in/gayatri-tatineni-0a939a20b/'>Gayatri's LinkedIn</a>", unsafe_allow_html=True)
+st.sidebar.markdown("Thanks for visiting the site 😃")

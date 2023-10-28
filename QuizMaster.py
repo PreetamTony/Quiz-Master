@@ -95,6 +95,9 @@ else:
     QuestionList = get_question(categories_option[category], levels.lower())
     # st.write(QuestionList)
     len_response = len(QuestionList)
+    if len_response == 0:
+        st.error("This Category has no question for the given difficulty mode at the source side! Please select another difficulty level or category to start the game! 😕😔")
+        st.stop()
     quiz_questions = []
     for item in range(len_response):
         temp_dict = dict()

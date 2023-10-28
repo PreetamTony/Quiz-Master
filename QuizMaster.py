@@ -1,3 +1,13 @@
+'''
+Project 1: Web Based Game
+Author: Ruchit Tripathi
+Documentation: Stephanie Damas & Gayatri Tatineni
+Class: CPSC 8710 (Foundation of Software Engineering)
+Professor: Prof. Paige Anne Rodeghero
+'''
+
+
+
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
@@ -113,7 +123,7 @@ else:
         current_question = quiz_questions[ind]
         st.subheader(quiz_questions[ind]["text"])
         player_choice = st.radio("Select your answer:",
-                                 options=current_question["options"],
+                                 options= current_question["options"],
                                  key=f"question_{ind}",  disabled=(st.session_state.running))
         submitted =  st.button("Submit", key="submit_key", disabled=(st.session_state.running))
         if submitted:           
